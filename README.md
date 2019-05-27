@@ -1,6 +1,6 @@
 # CucumberJavaFramework
 
-#BDD: Java Maven Cucumber Selenium Webdriver Setup
+BDD: Java Maven Cucumber Selenium Webdriver Setup
 Java + Junit + Cucumber + Selenium +Maven + Apache POI 
 This repo contains the Maven setup for Cucumber (BDD)-Selenium for scenarios to Register, Sign-in in http://automationpractice.com/ .
 
