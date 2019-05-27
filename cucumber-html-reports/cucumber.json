@@ -1,0 +1,358 @@
+[
+  {
+    "line": 1,
+    "elements": [
+      {
+        "line": 5,
+        "name": "",
+        "description": "",
+        "type": "background",
+        "keyword": "Background"
+      },
+      {
+        "before": [
+          {
+            "result": {
+              "duration": 4820099099,
+              "status": "passed"
+            },
+            "match": {
+              "location": "Hooks.before(Scenario)"
+            }
+          }
+        ],
+        "line": 36,
+        "name": "Register with valid credential",
+        "description": "",
+        "id": "automationpractice.com-automtion;register-with-valid-credential;;2",
+        "after": [
+          {
+            "result": {
+              "duration": 149730,
+              "status": "passed"
+            },
+            "match": {
+              "location": "Hooks.afterScenario(Scenario)"
+            }
+          },
+          {
+            "result": {
+              "duration": 189415953,
+              "status": "passed"
+            },
+            "match": {
+              "location": "Hooks.afterScenario()"
+            }
+          }
+        ],
+        "type": "scenario",
+        "keyword": "Scenario Outline",
+        "steps": [
+          {
+            "result": {
+              "duration": 1412909197,
+              "status": "passed"
+            },
+            "line": 25,
+            "name": "Load test data for \"TC_2\"",
+            "match": {
+              "arguments": [
+                {
+                  "val": "TC_2",
+                  "offset": 20
+                }
+              ],
+              "location": "Steps.loadTestDataFor(String)"
+            },
+            "matchedColumns": [
+              0
+            ],
+            "keyword": "Given "
+          },
+          {
+            "result": {
+              "duration": 8280352926,
+              "status": "passed"
+            },
+            "line": 26,
+            "name": "user is on Home Page",
+            "match": {
+              "location": "Steps.userIsOnHomePage()"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 2930884254,
+              "status": "passed"
+            },
+            "line": 27,
+            "name": "User navigates to SignIn Page",
+            "match": {
+              "location": "Steps.userNavigatesToSignInPage()"
+            },
+            "keyword": "When "
+          },
+          {
+            "result": {
+              "duration": 243754388,
+              "status": "passed"
+            },
+            "line": 28,
+            "name": "User enters \"valid\" Email Address",
+            "match": {
+              "arguments": [
+                {
+                  "val": "valid",
+                  "offset": 13
+                }
+              ],
+              "location": "Steps.userEntersEmailAddress(String)"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 141370976,
+              "status": "passed"
+            },
+            "line": 29,
+            "name": "click on create an account",
+            "match": {
+              "location": "Steps.clickOnCreateAnAccount()"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 4551309739,
+              "status": "passed"
+            },
+            "line": 30,
+            "name": "Enter personal information",
+            "match": {
+              "location": "Steps.enterPersonalInformation()"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 3304103124,
+              "status": "passed"
+            },
+            "line": 31,
+            "name": "click on Register",
+            "match": {
+              "location": "Steps.clickOnRegister()"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 58883442,
+              "status": "passed"
+            },
+            "line": 32,
+            "name": "Account created successfully",
+            "match": {
+              "location": "Steps.accountCreatedSuccessfully()"
+            },
+            "keyword": "Then "
+          }
+        ],
+        "tags": [
+          {
+            "line": 23,
+            "name": "@valid_emailAddress"
+          },
+          {
+            "line": 23,
+            "name": "@PositiveScenario"
+          },
+          {
+            "line": 23,
+            "name": "@valid_registration"
+          }
+        ]
+      },
+      {
+        "line": 5,
+        "name": "",
+        "description": "",
+        "type": "background",
+        "keyword": "Background"
+      },
+      {
+        "before": [
+          {
+            "result": {
+              "duration": 3779730162,
+              "status": "passed"
+            },
+            "match": {
+              "location": "Hooks.before(Scenario)"
+            }
+          }
+        ],
+        "line": 37,
+        "name": "Register with valid credential",
+        "description": "",
+        "id": "automationpractice.com-automtion;register-with-valid-credential;;3",
+        "after": [
+          {
+            "result": {
+              "duration": 43470,
+              "status": "passed"
+            },
+            "match": {
+              "location": "Hooks.afterScenario(Scenario)"
+            }
+          },
+          {
+            "result": {
+              "duration": 302366144,
+              "status": "passed"
+            },
+            "match": {
+              "location": "Hooks.afterScenario()"
+            }
+          }
+        ],
+        "type": "scenario",
+        "keyword": "Scenario Outline",
+        "steps": [
+          {
+            "result": {
+              "duration": 81104954,
+              "status": "passed"
+            },
+            "line": 25,
+            "name": "Load test data for \"TC_3\"",
+            "match": {
+              "arguments": [
+                {
+                  "val": "TC_3",
+                  "offset": 20
+                }
+              ],
+              "location": "Steps.loadTestDataFor(String)"
+            },
+            "matchedColumns": [
+              0
+            ],
+            "keyword": "Given "
+          },
+          {
+            "result": {
+              "duration": 8033993973,
+              "status": "passed"
+            },
+            "line": 26,
+            "name": "user is on Home Page",
+            "match": {
+              "location": "Steps.userIsOnHomePage()"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 2831767717,
+              "status": "passed"
+            },
+            "line": 27,
+            "name": "User navigates to SignIn Page",
+            "match": {
+              "location": "Steps.userNavigatesToSignInPage()"
+            },
+            "keyword": "When "
+          },
+          {
+            "result": {
+              "duration": 582707600,
+              "status": "passed"
+            },
+            "line": 28,
+            "name": "User enters \"valid\" Email Address",
+            "match": {
+              "arguments": [
+                {
+                  "val": "valid",
+                  "offset": 13
+                }
+              ],
+              "location": "Steps.userEntersEmailAddress(String)"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 146857225,
+              "status": "passed"
+            },
+            "line": 29,
+            "name": "click on create an account",
+            "match": {
+              "location": "Steps.clickOnCreateAnAccount()"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 4072102483,
+              "status": "passed"
+            },
+            "line": 30,
+            "name": "Enter personal information",
+            "match": {
+              "location": "Steps.enterPersonalInformation()"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 2290425841,
+              "status": "passed"
+            },
+            "line": 31,
+            "name": "click on Register",
+            "match": {
+              "location": "Steps.clickOnRegister()"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 48336587,
+              "status": "passed"
+            },
+            "line": 32,
+            "name": "Account created successfully",
+            "match": {
+              "location": "Steps.accountCreatedSuccessfully()"
+            },
+            "keyword": "Then "
+          }
+        ],
+        "tags": [
+          {
+            "line": 23,
+            "name": "@valid_emailAddress"
+          },
+          {
+            "line": 23,
+            "name": "@PositiveScenario"
+          },
+          {
+            "line": 23,
+            "name": "@valid_registration"
+          }
+        ]
+      }
+    ],
+    "name": "automationpractice.com automtion",
+    "description": "Covers Register, Sign-in in http://automationpractice.com/\r\nValidation criteria : User should be logged in to check out the product",
+    "id": "automationpractice.com-automtion",
+    "keyword": "Feature",
+    "uri": "Automationpractice_Register.feature"
+  }
+]
