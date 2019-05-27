@@ -28,7 +28,7 @@ Implemented using cucumber scenario outline and Apache POI utilities.
 Install on Local Machine
 Install Java & Maven on your local machine
 Git clone the below repo and set up the same in an IDE.
-•	git@github.com:shetty4989/CucumberJavaFramework.git
+•	git@github.com:shetty4989/TestAutomation_Solution.git
 
 ## To Run (Maven command line)
 ### enable profile id 'Browser_Chrome' with -P prod or -D browser=chrome
