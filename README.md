@@ -12,6 +12,7 @@ Implemented using cucumber scenario outline and Apache POI utilities.
 
 ## Scenario Picked for testing:
 •	User should be able to register using a valid email address
+
 •	While registering, if the email address is incorrect. User should see an error message
 
 
